@@ -1,0 +1,202 @@
+html, body {
+    padding:0;
+    margin:0;
+}
+
+.hero-page{
+    background-color: #1f2937;
+    color: white;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 300px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 2%;
+    margin: 0px 300px 0px 0px;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    list-style-type: none; 
+    gap: 16px;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+a {
+    text-decoration: none; 
+    color: #E5E7EB;
+}
+
+/* Content of hero area */
+
+.content h1 {
+    font-size: 48px;
+    font-weight:900;
+    margin-top: 100px;
+}
+
+.content {
+    font-size: 18px;
+    width: 300px;
+    height: 300px;
+    margin: 100px 45px 100px 340px; 
+}
+
+.button {
+    width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+img {
+    width: 440px;
+    float: right;
+    margin-top: -400px;
+    margin-right: 480px;
+}
+
+/*Boxes and info*/
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2937;
+}
+
+.outer-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    flex: 1;
+    gap: 40px;
+}
+
+.boxes {
+    display: flex;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    border-radius: 16px;
+    height: 170px;
+    width: 170px;
+    padding: 10px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.text {
+    width: 150px;
+    text-align: center;
+}
+
+/* Quote */
+
+.quote-block{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.quote-text {
+    margin: auto;
+    align-items: center;
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+
+.quote-block .Thor {
+    font-size: 24px; 
+    font-family: Arial, sans-serif; 
+    color: #000; 
+    font-weight: bold; 
+    position: relative;
+    bottom: 170px;
+    left: 250px;
+    text-align: center;
+}
+
+
+/* CTA */
+
+.cta {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+
+.cta-text {
+   width: 700px;
+   
+}
+
+.cta-text h2 {
+    margin-bottom: -10px;
+    padding-left: 50px;
+}
+
+.cta-text p {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.button1 {
+    border: 3px solid white;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 18px;
+    width: 150px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 18px;
+    font-size: 18px;
+}
